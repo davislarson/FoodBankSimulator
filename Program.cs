@@ -8,21 +8,22 @@ internal class Program
     {
         Console.WriteLine("Welcome to the Food Bank Inventory System!\n");
 
-        Console.WriteLine("Here are the valid actions:");
-        Console.WriteLine("1) Add food item");
-        Console.WriteLine("2) Delete food item");
-        Console.WriteLine("3) See all current food items");
-        Console.WriteLine("4) Exit Program\n");
-
+        // Create the variables needed throughout the program
         bool exit = false;
         int choice = 0;
         Menu menu = new Menu();
-        
-
         List<FoodItem> foodList = new List<FoodItem>();
 
+        // Keep the user in the loop until they decide to exit
         while (exit == false)
         {
+            Console.WriteLine("\nHere are the valid actions:");
+            Console.WriteLine("1) Add food item");
+            Console.WriteLine("2) Delete food item");
+            Console.WriteLine("3) See all current food items");
+            Console.WriteLine("4) Exit Program\n");
+            
+            // Handle a non number entry
             try
             {
                 Console.WriteLine("What you you like to do?");
@@ -34,20 +35,22 @@ internal class Program
                 Console.WriteLine(e.Message + "\n");
                 continue;
             }
-// Make sure the choice is a valid action
+            // Make sure the choice is a valid action
+            // Use the menu class to add, remove, or show items
             if (choice >= 1 && choice <= 4)
             {
                 if (choice == 1)
                 {
                     foodList.Add(menu.AddFoodItem());
+                    Console.WriteLine("You added an item.");
                 }
                 else if (choice == 2)
                 {
-                    menu.DeleteFoodItem();
+                    menu.DeleteFoodItem(foodList);
                 }
                 else if (choice == 3)
                 {
-                    menu.ShowMenu();
+                    menu.ShowMenu(foodList);
                 }
                 else
                 {
