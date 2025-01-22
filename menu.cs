@@ -2,7 +2,8 @@ namespace Mission3FoodBank;
 
 public class Menu
 {
-    public FoodItem AddFoodItem()
+    // This receives the info needed to create a food item and adds it to the foodItems list passed in
+    public void AddFoodItem(List<FoodItem> foodItems)
     {
         string name = "";
         string category = "";
@@ -28,9 +29,9 @@ public class Menu
         }
         FoodItem food = new FoodItem(name, category, quantity, expiryDate);
         
-        return food;
+        foodItems.Add(food);
     } 
-
+    // This allows the user to see all the items in the database and choose one to remove
     public void DeleteFoodItem(List<FoodItem> foodList)
     {
         int remove = 0;
@@ -52,7 +53,7 @@ public class Menu
         foodList.Remove(foodList[remove - 1]);
         
     }
-
+    // This allows the user to see all items in the inventory
     public void ShowMenu(List<FoodItem> foodList)
     {
         int iterator = 1;

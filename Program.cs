@@ -41,7 +41,7 @@ internal class Program
             {
                 if (choice == 1)
                 {
-                    foodList.Add(menu.AddFoodItem());
+                    menu.AddFoodItem(foodList);
                     Console.WriteLine("You added an item.");
                 }
                 else if (choice == 2)
@@ -61,6 +61,7 @@ internal class Program
             {
                 Console.WriteLine("That's not a valid choice. Choose a number from 1 to 4.\n");
             }
+            Console.WriteLine("********************************************************************************");
         }
         
         Console.WriteLine("Exiting the program. Thank you for using the Food Bank Inventory System!\n");
