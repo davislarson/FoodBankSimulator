@@ -31,7 +31,7 @@ public class Menu
         
         foodItems.Add(food);
     } 
-    // This allows the user to see all the items in the database and choose one to remove
+    // This allows the user to see all the items in the list and choose one to remove
     public void DeleteFoodItem(List<FoodItem> foodList)
     {
         int remove = 0;
