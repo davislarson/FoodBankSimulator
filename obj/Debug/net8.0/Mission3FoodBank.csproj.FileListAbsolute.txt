@@ -1,0 +1,14 @@
+/Users/davislarson/RiderProjects/Mission3FoodBank/bin/Debug/net8.0/Mission3FoodBank
+/Users/davislarson/RiderProjects/Mission3FoodBank/bin/Debug/net8.0/Mission3FoodBank.deps.json
+/Users/davislarson/RiderProjects/Mission3FoodBank/bin/Debug/net8.0/Mission3FoodBank.runtimeconfig.json
+/Users/davislarson/RiderProjects/Mission3FoodBank/bin/Debug/net8.0/Mission3FoodBank.dll
+/Users/davislarson/RiderProjects/Mission3FoodBank/bin/Debug/net8.0/Mission3FoodBank.pdb
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.GeneratedMSBuildEditorConfig.editorconfig
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.AssemblyInfoInputs.cache
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.AssemblyInfo.cs
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.csproj.CoreCompileInputs.cache
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.dll
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/refint/Mission3FoodBank.dll
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.pdb
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/Mission3FoodBank.genruntimeconfig.cache
+/Users/davislarson/RiderProjects/Mission3FoodBank/obj/Debug/net8.0/ref/Mission3FoodBank.dll
